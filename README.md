@@ -1,2 +1,2 @@
-# SiriusAI
-FastAPI for the AML case
+# FastAPI for the AML case
+
