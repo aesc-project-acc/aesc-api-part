@@ -149,7 +149,7 @@ def make_predict(addr):
 
     p, t = model.predict_proba(to_model), model.predict(to_model)
 
-    return f"Кошелек задействован в отмывании денежных средств с вероятностью {int(p[1]*100)}" if t else f"Кошелек НЕ задействован в отмывании денежных средств с вероятностью {int(p[0]*100)}%"
+    return f"Кошелек задействован в отмывании денежных средств с вероятностью {int(p[1]*100)}%" if t else f"Кошелек НЕ задействован в отмывании денежных средств с вероятностью {int(p[0]*100)}%"
 
 def get_predict_by_address(address):
     return make_predict(address)
