@@ -15,9 +15,9 @@ from sklearn.externals.joblib import load
 
 etherscan_wallets = set()
 
-tokenview_tokens = ['neBzCw0h5Ql64XJxwloS',
-                    '5JfrR9A494a7FDO4Favj',
-                    '8uORCV4Cn9vx3IKpbifY',
+tokenview_tokens = ['yeIuqVjCtneumfMgEPle',
+                    'DWa8Qccd1TV2MKguq3sQ',
+                    'dF5BXo79SzRKlLxYkngT',
                     ]
 
 model = CatBoostClassifier()
